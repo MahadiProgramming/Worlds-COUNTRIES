@@ -1,0 +1,26 @@
+*{
+    border: 0;
+    margin: 0;
+}
+h1{
+    color: antiquewhite;
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+    background: rgb(57, 3, 3);
+}
+#countries{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background: rgb(57, 3, 3);
+
+}
+.country{
+    border: 2px solid goldenrod;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgb(19, 113, 40);
+    align-items: center;
+    text-align: center;
+}
